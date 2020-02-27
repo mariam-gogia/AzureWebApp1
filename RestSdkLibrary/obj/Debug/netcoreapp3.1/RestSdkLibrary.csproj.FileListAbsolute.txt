@@ -1,0 +1,8 @@
+C:\Users\Mariam\Desktop\MySolutions\TicTacToeAttempt1\RestSdkLibrary\bin\Debug\netcoreapp3.1\RestSdkLibrary.deps.json
+C:\Users\Mariam\Desktop\MySolutions\TicTacToeAttempt1\RestSdkLibrary\bin\Debug\netcoreapp3.1\RestSdkLibrary.dll
+C:\Users\Mariam\Desktop\MySolutions\TicTacToeAttempt1\RestSdkLibrary\bin\Debug\netcoreapp3.1\RestSdkLibrary.pdb
+C:\Users\Mariam\Desktop\MySolutions\TicTacToeAttempt1\RestSdkLibrary\obj\Debug\netcoreapp3.1\RestSdkLibrary.AssemblyInfoInputs.cache
+C:\Users\Mariam\Desktop\MySolutions\TicTacToeAttempt1\RestSdkLibrary\obj\Debug\netcoreapp3.1\RestSdkLibrary.AssemblyInfo.cs
+C:\Users\Mariam\Desktop\MySolutions\TicTacToeAttempt1\RestSdkLibrary\obj\Debug\netcoreapp3.1\RestSdkLibrary.dll
+C:\Users\Mariam\Desktop\MySolutions\TicTacToeAttempt1\RestSdkLibrary\obj\Debug\netcoreapp3.1\RestSdkLibrary.pdb
+C:\Users\Mariam\Desktop\MySolutions\TicTacToeAttempt1\RestSdkLibrary\obj\Debug\netcoreapp3.1\RestSdkLibrary.csprojAssemblyReference.cache

@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicTacToeAttempt1</name>
+    </assembly>
+    <members>
+        <member name="M:TicTacToeAttempt1.Controllers.ExecutemoveController.Post(TicTacToeAttempt1.Controllers.InputPayload)">
+            <summary>
+            checks validity of the input payload, sends input payload and receives outputPlayload
+            </summary>
+            <param name="inputPayload"></param>
+            <returns> output payload </returns>
+        </member>
+        <member name="T:TicTacToeAttempt1.Controllers.GameOutcome">
+            <summary>
+            Game Outcome Class helps determine who won and at what winnning positions
+            </summary>
+        </member>
+        <member name="M:TicTacToeAttempt1.Controllers.GameOutcome.#ctor(System.String,System.Int32[])">
+            <summary>
+            A constructor 
+            </summary>
+            <param name="outcome"></param>
+            <param name="winningPositions"></param>
+        </member>
+        <member name="M:TicTacToeAttempt1.Controllers.GameOutcome.#ctor(System.String)">
+            <summary>
+            second constructor for tie outcome (no need for positions)
+            </summary>
+            <param name="outcome"></param>
+        </member>
+        <member name="M:TicTacToeAttempt1.Controllers.GameOutcome.getOutcome">
+            <summary>
+            method
+            </summary>
+            <returns> returns game outcome </returns>
+        </member>
+        <member name="M:TicTacToeAttempt1.Controllers.GameOutcome.getWinningPositions">
+            <summary>
+            method
+            </summary>
+            <returns> returns an array of winning positions </returns>
+        </member>
+        <member name="M:TicTacToeAttempt1.Controllers.Heuristic.#ctor(System.String,System.String)">
+            <summary>
+            Construcor for Heuristic class
+            </summary>
+            <param name="azurePlayerSymbol"></param>
+            <param name="humanPlayerSymbol"></param>
+        </member>
+        <member name="M:TicTacToeAttempt1.Controllers.Heuristic.DetermineWin(System.String[])">
+            <summary>
+            This method determines the win 
+            </summary>
+            <param name="gameboard"></param>
+            <returns> returns GameOutcome class instance with winner's symbol or tie </returns>
+        </member>
+        <member name="M:TicTacToeAttempt1.Controllers.Heuristic.AzurePlayerMove(System.String[])">
+            <summary>
+            computes Azure player move
+            </summary>
+            <param name="gameboard"></param>
+            <returns> returns Azure player's move</returns>
+        </member>
+        <member name="M:TicTacToeAttempt1.Controllers.Heuristic.evaluate(System.String[])">
+            <summary>
+            helper method, using DetermineWin, determine which symbol won and assigns appropriate score values
+            </summary>
+            <param name="gameboard"></param>
+            <returns> </returns>
+        </member>
+        <member name="M:TicTacToeAttempt1.Controllers.Heuristic.freeCells(System.String[])">
+            <summary>
+            helper method to count how many empty cells are on the board
+            </summary>
+            <param name="gameboard"></param>
+            <returns> number of empty cells on the board </returns>
+        </member>
+        <member name="P:TicTacToeAttempt1.Controllers.InputPayload.move">
+            <summary>
+            integer indicating player's move,
+            positions 0-8
+            </summary>
+        </member>
+        <member name="P:TicTacToeAttempt1.Controllers.InputPayload.azurePlayerSymbol">
+            <summary>
+            Assigned symbol for Azure Player
+            </summary>
+        </member>
+        <member name="P:TicTacToeAttempt1.Controllers.InputPayload.humanPlayerSymbol">
+            <summary>
+            Assigned symbol for Human Player
+            </summary>
+        </member>
+        <member name="P:TicTacToeAttempt1.Controllers.InputPayload.gameBoard">
+            <summary>
+            An array presenting the gameboard
+            </summary>
+        </member>
+        <member name="P:TicTacToeAttempt1.Controllers.OutputPayload.move">
+            <summary>
+            integer indicating player's move,
+            positions 0-8
+            </summary>
+        </member>
+        <member name="P:TicTacToeAttempt1.Controllers.OutputPayload.azurePlayerSymbol">
+            <summary>
+            Assigned symbol for Azure Player
+            </summary>
+        </member>
+        <member name="P:TicTacToeAttempt1.Controllers.OutputPayload.humanPlayerSymbol">
+            <summary>
+            Assigned symbol for Human Player
+            </summary>
+        </member>
+        <member name="P:TicTacToeAttempt1.Controllers.OutputPayload.winner">
+            <summary>
+            displays the winner, either "X", "O", "tie" or "inconclusive"
+            </summary>
+        </member>
+        <member name="P:TicTacToeAttempt1.Controllers.OutputPayload.winPositions">
+            <summary>
+            lists positions where win happened
+            </summary>
+        </member>
+        <member name="P:TicTacToeAttempt1.Controllers.OutputPayload.gameBoard">
+            <summary>
+            presents current gameboard
+            </summary>
+        </member>
+    </members>
+</doc>
