@@ -14,6 +14,7 @@ Description:
 
 The project’s REST interface executeMove implements HTTP POST verb.
 
+<pre>
 The inbound payload is a JSON object (example):
 	{
 	    “move”: 1,
@@ -21,6 +22,7 @@ The inbound payload is a JSON object (example):
 	    “humanPlayerSymbol”: “O”
 	    “gameboard” : [“X","O","?","?","?","?","?","?","?"] 
 	}
+</pre>
 
 move: can only be in a range of 1-8
 ? = empty space on the board 
