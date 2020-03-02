@@ -28,7 +28,7 @@ azurePlayerSymbol and humanPlayerSymbol must always be opposites of each other
 invalid gameboard returns HTTP Status Bad Request (400).
 
 The output payload example:
- {
+    {
 	    “move”: 7,
 	    “azurePlayerSymbol”: “X”,
 	    “humanPlayerSymbol”: “O”
