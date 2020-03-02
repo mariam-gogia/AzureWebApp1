@@ -13,9 +13,8 @@ Visual Studio 2019, .NET Core 3.1. C#
 Description:
 
 The project’s REST interface executeMove implements HTTP POST verb.
-
-<pre>
 The inbound payload is a JSON object (example):
+<pre>
 	{
 	    “move”: 1,
 	    “azurePlayerSymbol”: “X”,
@@ -30,6 +29,7 @@ azurePlayerSymbol and humanPlayerSymbol must always be opposites of each other
 invalid gameboard returns HTTP Status Bad Request (400).
 
 The output payload example:
+<pre>
     {
 	    “move”: 7,
 	    “azurePlayerSymbol”: “X”,
@@ -41,7 +41,8 @@ The output payload example:
 		7
 	],
 	    “gameboard”: ["O","X","O","?","X","O","?","X","?"] 
-       }
+     }
+</pre>
 
 •	Swagger documentation of the REST interface provided explicitly documents executemove interface along with the structures of input and output payloads
 
